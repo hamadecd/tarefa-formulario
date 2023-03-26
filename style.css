@@ -1,0 +1,39 @@
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 420px;
+    margin: 0 auto;
+    border: solid;
+    border-style: groove;
+    background-color: cornsilk;
+}
+
+#fieldset1 {
+    border: none;
+    margin-bottom: 10px;
+    padding: 0;
+}
+
+input:not(input[type='radio']) {
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+footer input {
+    text-align: center;
+    background-color: black;
+    color: white;
+    border: none;
+    text-decoration: solid;
+}
+
+header h2 {
+    margin: 0;
+}

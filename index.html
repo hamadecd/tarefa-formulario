@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <script src="./script.js" defer></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <main>
+        <form id="formulario">
+            <header>
+                <h2>Preencha o formulário</h2>
+            </header>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome"><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br>
+
+            <label for="telefone">Telefone:</label>
+            <input type="tel" id="telefone" name="telefone"><br>
+
+            <fieldset id="fieldset1">
+                <label>Tipo de Telefone:</label>
+                <input type="radio" id="casa" name="tipo-telefone" value="casa">
+                <label for="casa">Casa</label>
+
+                <input type="radio" id="trabalho" name="tipo-telefone" value="trabalho">
+                <label for="trabalho">Trabalho</label>
+
+                <input type="radio" id="celular" name="tipo-telefone" value="celular">
+                <label for="celular">Celular</label>
+            </fieldset>
+
+            <fieldset id="fieldset2">
+                <legend>Endereço</legend>
+                <label for="logradouro">Logradouro:</label>
+                <input type="text" id="logradouro" name="logradouro"><br>
+
+                <label for="cidade">Cidade:</label>
+                <input type="text" id="cidade" name="cidade"><br>
+
+                <label for="estado">Estado:</label>
+                <input type="text" id="estado" name="estado"><br>
+
+                <label for="cep">CEP:</label>
+                <input type="text" id="cep" name="cep"><br>
+
+                <label for="pais">País:</label>
+                <input type="text" id="pais" name="pais"><br>
+
+            </fieldset>
+
+            <footer>
+                <input type="submit" value="ENVIAR">
+            </footer>
+    </main>
+    </form>
+</body>
+
+</html>
